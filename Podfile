@@ -6,5 +6,13 @@ target 'InstagramApp' do
   use_frameworks!
 
   # Pods for InstagramApp
+  
+  #Firebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Storage'
 
 end
