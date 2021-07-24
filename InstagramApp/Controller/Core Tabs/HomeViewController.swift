@@ -14,7 +14,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+ 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -24,6 +24,7 @@ class HomeViewController: UIViewController {
     
     private func handleNotAuthenticated() {
         // Check auth status
+        print(Auth.auth().currentUser?.email ?? "def")
         if Auth.auth().currentUser == nil {
             // Show LoginViewController
             let loginVC = LoginViewController()

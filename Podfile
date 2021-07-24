@@ -14,5 +14,6 @@ target 'InstagramApp' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
   pod 'Firebase/Storage'
+  pod 'Firebase/Firestore'
 
 end

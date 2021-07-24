@@ -27,11 +27,11 @@
 		7FA8E95926A8DB610010A1EE /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8E95826A8DB610010A1EE /* SearchResultViewController.swift */; };
 		7FA8E95B26A8DB8D0010A1EE /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8E95A26A8DB8D0010A1EE /* PostEditorViewController.swift */; };
 		7FA8E95D26A8DB990010A1EE /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8E95C26A8DB990010A1EE /* PublishPostViewController.swift */; };
-		7FA8E95F26A8E5220010A1EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FA8E95E26A8E5220010A1EE /* GoogleService-Info.plist */; };
 		7FA8E96326A8E9B70010A1EE /* DatabaseManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8E96226A8E9B70010A1EE /* DatabaseManger.swift */; };
 		7FA8E96526A8EA9E0010A1EE /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8E96426A8EA9E0010A1EE /* AuthManager.swift */; };
 		7FA8E96726A8EB040010A1EE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8E96626A8EB040010A1EE /* StorageManager.swift */; };
 		7FA8E96926A9E0C80010A1EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8E96826A9E0C80010A1EE /* Extensions.swift */; };
+		7FF9D13E26AC960500B5E69B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FF9D13D26AC960500B5E69B /* GoogleService-Info.plist */; };
 		C373D497C6CB51BED1B34869 /* Pods_InstagramApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26D437FC00625FFC3A44198 /* Pods_InstagramApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,11 +60,11 @@
 		7FA8E95826A8DB610010A1EE /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		7FA8E95A26A8DB8D0010A1EE /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		7FA8E95C26A8DB990010A1EE /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
-		7FA8E95E26A8E5220010A1EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7FA8E96226A8E9B70010A1EE /* DatabaseManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManger.swift; sourceTree = "<group>"; };
 		7FA8E96426A8EA9E0010A1EE /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		7FA8E96626A8EB040010A1EE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		7FA8E96826A9E0C80010A1EE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FF9D13D26AC960500B5E69B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B26D437FC00625FFC3A44198 /* Pods_InstagramApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,9 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				7FA8E92526A8D8640010A1EE /* AppDelegate.swift */,
-				7FA8E95E26A8E5220010A1EE /* GoogleService-Info.plist */,
-				7FA8E92726A8D8640010A1EE /* SceneDelegate.swift */,
 				7FA8E96826A9E0C80010A1EE /* Extensions.swift */,
+				7FF9D13D26AC960500B5E69B /* GoogleService-Info.plist */,
+				7FA8E92726A8D8640010A1EE /* SceneDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA8E93226A8D8670010A1EE /* LaunchScreen.storyboard in Resources */,
-				7FA8E95F26A8E5220010A1EE /* GoogleService-Info.plist in Resources */,
+				7FF9D13E26AC960500B5E69B /* GoogleService-Info.plist in Resources */,
 				7FA8E92F26A8D8670010A1EE /* Assets.xcassets in Resources */,
 				7FA8E92D26A8D8640010A1EE /* Main.storyboard in Resources */,
 			);

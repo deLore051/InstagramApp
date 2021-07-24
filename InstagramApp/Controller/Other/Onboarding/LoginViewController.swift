@@ -174,8 +174,41 @@ class LoginViewController: UIViewController {
         guard let usernameEmail = usernameEmailTextField.text, !usernameEmail.isEmpty,
               let password = usernameEmailTextField.text, !password.isEmpty, password.count >= 8 else { return }
         
-        // Login functionality
+        var username: String?
+        var email: String?
         
+        // Login functionality
+        if usernameEmail.contains("@"), usernameEmail.contains(".") {
+            // Assume its email
+            email = usernameEmail
+        } else {
+            // Assume its username
+            username = usernameEmail
+        }
+        
+        AuthManager.shared.loginUser(username: username, email: email, password: password) { success in
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
+                
+                if success {
+                    // User logged in
+                    self.dismiss(animated: true, completion: nil)
+                } else {
+                    // Error occured
+                    let alert = UIAlertController(title: "Log In Error",
+                                                  message: "We were unable to log you in.",
+                                                  preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
+            }
+        }
+    }
+    
+    @objc private func didTapCreateAccountButton() {
+        let vc = RegistrationViewController()
+        vc.title = "Create Account"
+        present(UINavigationController(rootViewController: vc), animated: true, completion: nil)
     }
     
     @objc private func didTapTermButton() {
@@ -189,12 +222,6 @@ class LoginViewController: UIViewController {
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true, completion: nil)
     }
-    
-    @objc private func didTapCreateAccountButton() {
-        let vc = RegistrationViewController()
-        present(vc, animated: true, completion: nil)
-    }
-    
     
 }
 
