@@ -65,4 +65,17 @@ public class AuthManager {
             print(username)
         }
     }
+    
+    /// Attempt to log out firebase user
+    public func logOut(comletion: (Bool) -> Void) {
+        do {
+            try Auth.auth().signOut()
+            comletion(true)
+            return
+        } catch {
+            print(error)
+            comletion(false)
+            return
+        }
+    }
 }

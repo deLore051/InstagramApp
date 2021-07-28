@@ -6,6 +6,7 @@ target 'InstagramApp' do
   use_frameworks!
 
   # Pods for InstagramApp
+  pod 'SDWebImage'
   
   #Firebase
   pod 'Firebase/Core'

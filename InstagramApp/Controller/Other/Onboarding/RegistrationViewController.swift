@@ -118,7 +118,6 @@ class RegistrationViewController: UIViewController {
         AuthManager.shared.registerNewUser(username: username, email: email, password: password) { registered in
             DispatchQueue.main.async { [weak self] in
                 guard let self = self else { return }
-            
                 if registered {
                     // Good to go
                 } else {

@@ -30,8 +30,8 @@
             filePath = "InstagramApp/Controller/Core Tabs/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "handleNotAuthenticated()"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,32 +39,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "409F8D34-3EAA-4F16-B6A8-45C2DA66F089"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "InstagramApp/Controller/Core Tabs/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "handleNotAuthenticated()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "44D18B81-2163-4298-84DB-6B77D5174A35"
+            uuid = "B841DEB2-80E5-4C4E-9042-1EE2D37D07AF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InstagramApp/Controller/Core Tabs/HomeViewController.swift"
+            filePath = "InstagramApp/Controller/Other/Onboarding/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "handleNotAuthenticated()"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "didTapLoginButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B841DEB2-80E5-4C4E-9042-1EE2D37D07AF - 9fc06aabaf8c70c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramApp.LoginViewController.didTapLoginButton() -&gt; ()"
+                  moduleName = "InstagramApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stefandojcinovic/Documents/xcode/InstagramApp/InstagramApp/Controller/Other/Onboarding/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "1545">
+               </Location>
+               <Location
+                  uuid = "B841DEB2-80E5-4C4E-9042-1EE2D37D07AF - 44852933e35ad181"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in InstagramApp.LoginViewController.didTapLoginButton() -&gt; ()"
+                  moduleName = "InstagramApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stefandojcinovic/Documents/xcode/InstagramApp/InstagramApp/Controller/Other/Onboarding/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADE206A5-AC0F-4A09-A7DE-5AF6B1879326"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstagramApp/View/Cells/Notifications/NotificationLikeEventTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "configure(with:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

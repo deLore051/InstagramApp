@@ -172,7 +172,7 @@ class LoginViewController: UIViewController {
         usernameEmailTextField.resignFirstResponder()
         
         guard let usernameEmail = usernameEmailTextField.text, !usernameEmail.isEmpty,
-              let password = usernameEmailTextField.text, !password.isEmpty, password.count >= 8 else { return }
+              let password = passwordFieldTextField.text, !password.isEmpty, password.count >= 8 else { return }
         
         var username: String?
         var email: String?
